@@ -10,13 +10,10 @@ export default function RootLayout({ children }) {
   useEffect(() => {
     // Google Analytics setup
     const GA_TRACKING_ID = process.env.GOOGLE_ANALYTICS_ID;
-
-    if (GA_TRACKING_ID) { // Ensure the GA_TRACKING_ID exists before running GA setup
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', GA_TRACKING_ID);
-    }
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', GA_TRACKING_ID);
   }, []);
 
   const metadata = {
