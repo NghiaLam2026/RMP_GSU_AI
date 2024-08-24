@@ -9,10 +9,14 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   useEffect(() => {
     // Google Analytics setup
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-8QHBPVG77N');
+    const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
+
+    if (GA_TRACKING_ID) { // Ensure the GA_TRACKING_ID exists before running GA setup
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', GA_TRACKING_ID);
+    }
   }, []);
 
   const metadata = {
@@ -26,7 +30,12 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         {/* Google Analytics Script */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QHBPVG77N"></script>
+        {process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID && (
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID}`}
+          ></script>
+        )}
       </head>
       <body className={inter.className}>
         {children}
