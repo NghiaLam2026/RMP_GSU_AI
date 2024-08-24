@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rate My Professor GSU AI 🎓
 
-## Getting Started
+Rate My Professor GSU AI is a web application designed to help students at Georgia State University (GSU) find the best professors for their courses. The application uses advanced AI techniques, including Retrieval-Augmented Generation (RAG) and a vector database, to deliver precise and personalized professor recommendations based on user queries.
 
-First, run the development server:
+## Features 💡
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Professor Recommendations**: The system provides the top 3 professor recommendations based on user queries, considering both ratings and qualitative feedback from student reviews.
+- **Interactive Chat Interface**: Users can interact with the AI through a chat interface, asking for professor recommendations based on specific criteria.
+- **RAG-Based Retrieval**: Utilizes RAG to accurately retrieve and analyze relevant professor data from a comprehensive database.
+- **Dynamic Response Generation**: AI generates responses that include professor ratings, subjects taught, and key highlights from reviews.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used 💻
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Next.js**: Framework for building the web application.
+- **OpenAI**: For creating embeddings and generating responses.
+- **Pinecone**: Vector database for storing and querying professor data.
+- **React**: For building the front-end chat interface.
+- **Material-UI**: UI components for a modern and responsive design.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Usage ⚡
 
-## Learn More
+1. **Start the Chat**: Begin interacting with the AI by asking for professor recommendations. The AI will guide you through the process.
+2. **Receive Recommendations**: Based on your query, the AI will provide you with the top 3 professor recommendations, including ratings and review highlights.
+3. **Explore Professors**: Learn more about each professor through the detailed summaries provided by the AI.
 
-To learn more about Next.js, take a look at the following resources:
+## How It Works 🔍
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **User Query**: The user inputs a query related to GSU professors.
+2. **Embedding Creation**: The query is converted into an embedding using the OpenAI API.
+3. **Vector Database Query**: The embedding is used to query the Pinecone vector database, retrieving the most relevant professor data.
+4. **Response Generation**: The AI generates a response using the retrieved data and provides the user with a concise and informative summary of the top 3 professors.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contact 🌐
 
-## Deploy on Vercel
+If you have any questions or feedback, please feel free to reach out:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **GitHub**: [NghiaLam2026](https://github.com/NghiaLam2026)
+- **Email**: nghiatlam03@gmail.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## LIVE DEMO
+- Link: https://rmp-gsu-ai.vercel.app/
