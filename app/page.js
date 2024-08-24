@@ -1,6 +1,6 @@
 "use client";
 import { useState, useRef, useEffect } from "react";
-import { Box, Stack, TextField, Button } from "@mui/material";
+import { Box, Stack, TextField, Button, useMediaQuery } from "@mui/material";
 import ReactMarkdown from "react-markdown";
 
 export default function Home() {
@@ -12,6 +12,8 @@ export default function Home() {
   ]);
   const [message, setMessage] = useState("");
   const messagesEndRef = useRef(null);
+
+  const isSmallScreen = useMediaQuery('(max-width:600px)');
 
   // Function to scroll to the bottom when a new message is added
   const scrollToBottom = () => {
@@ -91,8 +93,10 @@ export default function Home() {
     >
       <Stack 
         direction="column" 
-        width="600px" 
-        height="800px" 
+        width={isSmallScreen ? "90%" : "50%"} // Adjust width based on screen size
+        height={isSmallScreen ? "70%" : "80%"} // Adjust height based on screen size
+        maxWidth="600px" 
+        maxHeight="800px"
         bgcolor="rgba(255, 255, 255, 0.9)" 
         boxShadow="0px 4px 15px rgba(0, 0, 0, 0.2)" 
         borderRadius={12} 
@@ -102,7 +106,7 @@ export default function Home() {
           animation: "slideIn 0.5s ease-out"
         }}
       >
-        <Stack direction="column" spacing={3} flexGrow={1} overflow="auto" maxHeight="800px">
+        <Stack direction="column" spacing={3} flexGrow={1} overflow="auto">
           {messages.map((message, index) => (
             <Box
               key={index}
@@ -113,14 +117,14 @@ export default function Home() {
                 bgcolor={message.role === "assistant" ? "#004080" : "#0039A6"} 
                 color="white"
                 borderRadius={8}
-                p={4}
+                p={isSmallScreen ? 2 : 4} // Adjust padding based on screen size
                 maxWidth="80%"
                 boxShadow="0px 2px 6px rgba(0, 0, 0, 0.1)"
                 style={{
                   background: "linear-gradient(45deg, #0066cc, #001757)",
                   lineHeight: 1.7,
                   marginBottom: '16px',
-                  fontSize: '16px',
+                  fontSize: isSmallScreen ? '14px' : '16px', // Adjust font size based on screen size
                 }}
               >
                 <ReactMarkdown>{message.content}</ReactMarkdown>
@@ -149,7 +153,7 @@ export default function Home() {
               background: "linear-gradient(45deg, #0066cc, #001757)", // Gradient button
               color: "white",
               borderRadius: 16,
-              padding: "8px 24px",
+              padding: isSmallScreen ? "4px 12px" : "8px 24px", // Adjust padding based on screen size
               boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)",
               transition: "transform 0.2s ease-in-out"
             }}
