@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   useEffect(() => {
     // Google Analytics setup
-    const GA_TRACKING_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID;
+    const GA_TRACKING_ID = process.env.GOOGLE_ANALYTICS_ID;
 
     if (GA_TRACKING_ID) { // Ensure the GA_TRACKING_ID exists before running GA setup
       window.dataLayer = window.dataLayer || [];
