@@ -1,0 +1,196 @@
+{
+  "reviews": [
+      {
+          "professor": "Jingyu Liu",
+          "subject": "Computer Science",
+          "stars": 5,
+          "review": "Dr. Liu's ability to simplify complex material for student is outstanding, making her classes more accessible and enjoyable."
+      },
+      {
+          "professor": "Abdullah Bal",
+          "subject": "Computer Science",
+          "stars": 5,
+          "review": "Highly regarded by students for his ability to make complex topics, like digital image processing, easy to understand and engaging. Students consistently describe his classes as well-organized, with effective use of lectures, reviews, and summaries. He is praised for being approachable, providing clear grading criteria, and offering helpful feedback. While his courses require attendance, those who participate actively tend to find his classes enjoyable and relatively easy to succeed in."
+      },
+      {
+          "professor": "Pavel Skums",
+          "subject": "Computer Science",
+          "stars": 5,
+          "review": "Well-regarded for his engaging teaching style, especially in challenging subjects like algorithms. Students appreciate his willingness to help and his ability to make difficult topics more understandable and even enjoyable. His classes are described as lecture-heavy but balanced with extra credit opportunities and good feedback, making it easier for students to succeed if they attend and participate."
+      },
+      {
+          "professor": "Daniel Novikov",
+          "subject": "Computer Science",
+          "stars": 5,
+          "review": "Professor Novikov is highly regarded by his students for his caring and approachable nature. He is known for going beyond expectations to help students understand the material, making himself accessible outside of class, and being forgiving and understanding of various circumstances. His lectures are thorough, often supplemented with his own PowerPoint slides and practical examples, which helps clarify complex topics. Though he has a soft-spoken voice, which some students mention, his passion for teaching is evident. He provides mock exams and extra credit opportunities, which are appreciated by students, as they help with preparation for the midterm and final exams. Lab attendance is generally not mandatory, and assignments are designed to align well with exam content. Overall, students find him to be a relaxed and respectful professor who is genuinely invested in their success. His classes are recommended for those who appreciate a supportive learning environment with clear guidance and ample opportunities for success."
+      },
+      {
+          "professor": "Hemanth Venkateswara",
+          "subject": "Computer Science",
+          "stars": 5,
+          "review": "Professor Venkateswara is highly praised for his ability to simplify complex material, making it easier for students to grasp difficult concepts. Students appreciate his knowledge, clarity in explanations, and his understanding of where students might struggle. His tests are described as challenging but fair, rewarding those who put in the effort to study. He is also noted for his well-organized course structure, which includes recorded lectures and sample questions that help students prepare for exams. Homework is manageable, and quizzes directly reflect the material covered in lectures. Students find his lectures engaging and appreciate the clear grading criteria. Overall, Professor Venkateswara is highly recommended, especially for students looking for a professor who can make challenging material more accessible and who provides strong support throughout the course."
+      },
+      {
+          "professor": "Amin Karim",
+          "subject": "Computer Science",
+          "stars": 4.9,
+          "review": "Professor Karim receives overwhelmingly positive reviews from students, who describe him as an inspirational and caring educator. Many students highlight his deep impact on their lives, with some attributing their success and newfound passion for computer science to his teaching. He is praised for being approachable, understanding, and supportive, often going out of his way to help students both academically and personally. Students also mention his engaging and humorous teaching style, making his classes enjoyable despite the challenging coursework. However, a few reviews hint at an exaggerated or sarcastic tone, especially when mentioning aspects like his appearance or personal interactions, which may suggest some playful or hyperbolic expressions of praise. Overall, Professor Karim is highly respected and recommended by his students, particularly for those seeking an engaging and supportive learning environment."
+      },
+      {
+          "professor": "Narasimha Rao Casturi",
+          "subject": "Computer Science",
+          "stars": 4.8,
+          "review": "Well-regarded by students for his caring nature, clear feedback, and emphasis on participation. Attendance is crucial in his classes, and he encourages students to ask questions and engage with the material. While his lectures can be long and occasionally dull, they are informative and essential for understanding the content. He values effort, making him a fair grader."
+      },
+      {
+          "professor": "Chetraj Pandey",
+          "subject": "Computer Science",
+          "stars": 4.6,
+          "review": "He uses a mix of casual and formal approaches, making the class enjoyable while also emphasizing participation. His exams can be tricky, but he's lenient with grading and offers plenty of extra credit opportunities. While most students appreciate his efforts and find his lectures valuable, some feel that the tests and quizzes don't align well with the slides, requiring additional study from the textbook."
+      },
+      {
+          "professor": "Bingyi Xie",
+          "subject": "Computer Science",
+          "stars": 4.5,
+          "review": "The professor is generally well-liked for his clear communication, accessibility, and well-organized lectures. He uses Discord to quickly respond to student questions and provides a reasonable workload with clear grading criteria. While the class is considered easy, some students felt they didn't learn much, particularly object-oriented programming, as the focus was on Python libraries."
+      },
+      {
+          "professor": "Mario Kubek",
+          "subject": "Computer Science",
+          "stars": 4.5,
+          "review": "He encourages participation and is caring, but his classes are lecture-heavy and require a solid understanding of math concepts like Linear Algebra and Probabilities. While the material can be challenging and abstract, students find him approachable and would take his classes again."
+      },
+      {
+          "professor": "Faris Hawamdeh",
+          "subject": "Computer Science",
+          "stars": 4.4,
+          "review": "Generally well-regarded, especially for being young, understanding, and accessible outside of class. Lectures can be long and sometimes boring, but they are organized and informative, with a break included. Quizzes are online and flexible, and the professor is responsive to questions via email. However, some students found the class overwhelming if they lacked prior knowledge of the programming language used."
+      },
+      {
+          "professor": "Yuan Li",
+          "subject": "Computer Science",
+          "stars": 4,
+          "review": "Her classes are manageable for attentive students, though lectures can be heavy and math-intensive. She reads from PowerPoints, which can be hard to follow, but offers extra credit and exam curves."
+      },
+      {
+          "professor": "Parag Tamhankar",
+          "subject": "Computer Science",
+          "stars": 4,
+          "review": "While many students appreciate his ability to explain concepts clearly and his willingness to curve final grades, his teaching style can be polarizing. Some students find him to be helpful and caring, with well-structured lectures, but others criticize his strict grading."
+      },
+      {
+          "professor": "William Johnson",
+          "subject": "Computer Science",
+          "stars": 4,
+          "review": "Highly regarded by students for his engaging teaching style, clear communication, and approachable nature. He keeps the class engaged with stories from his prior experiences and provides straightforward instructions on assignments. His courses are well-organized, and he is respected for his helpfulness and the valuable career advice he offers."
+      },
+      {
+          "professor": "Mu Ge",
+          "subject": "Computer Science",
+          "stars": 3.8,
+          "review": "Students appreciate his caring nature, clear grading criteria, and responsiveness, particularly with emails. His exams and assignments are considered easy, especially if you've done the homework and attended lectures. However, some students find his lecture boring and feel he lacks engagement, often speaking too softly."
+      },
+      {
+          "professor": "Hongyu Ke",
+          "subject": "Computer Science",
+          "stars": 3.7,
+          "review": "Students generally appreciate his caring nature and willingness to provide guidance, especially if they actively participate and ask questions. His lectures are considered valuable by some, though others find them long, boring, and difficult to follow due to a language barrier."
+      },
+      {
+          "professor": "Louis Henry",
+          "subject": "Computer Science",
+          "stars": 3.6,
+          "review": "This professor has a mixed set of reviews. Some students appreciate his accessibility, caring nature, and willingness to engage with students outside of class, often noting that he is a chill and funny professor. However, there are consistent criticisms about his disorganized lectures, unclear instructions, reliance on external tools like ZyBooks, and technical issues during class."
+      },
+      {
+          "professor": "Peng Wang",
+          "subject": "Computer Science",
+          "stars": 3.4,
+          "review": "While he is considered smart, his lectures are often described as boring and disengaging, primarily consisting of reading from slides. Students feel they have to teach themselves much of the material."
+      },
+      {
+          "professor": "Saeid Belkasim",
+          "subject": "Computer Science",
+          "stars": 3.1,
+          "review": "While some students find his material interesting, particularly for those into circuitry and logic, others struggle with his monotone delivery and reliance on PowerPoints. Homework is challenging but he offers grading flexibility."
+      },
+      {
+          "professor": "Shiraj Pokharel",
+          "subject": "Computer Science",
+          "stars": 3.1,
+          "review": "Highly regarded by many students for his effective teaching, especially in data structures, and for his engaging lectures. He emphasizes class participation and has high expectations, which some students appreciate while others find challenging. The coursework is intensive, with a lot of coding assignments, but exams are generally aligned with class material."
+      },
+      {
+          "professor": "Robert Harrison",
+          "subject": "Computer Science",
+          "stars": 3,
+          "review": "While he's caring and helpful, his teaching style is disorganized, with unclear grading criteria and no set due dates. The assignments are challenging, and the lectures are fast-paced, leaving many students confused."
+      },
+      {
+          "professor": "Xueting Liao",
+          "subject": "Computer Science",
+          "stars": 3,
+          "review": "Students find her to be minimally engaged, often referring them to the TA for help and primarily reading off PowerPoints in class."
+      },
+      {
+          "professor": "Sayed Hossein Esfahani",
+          "subject": "Computer Science",
+          "stars": 3,
+          "review": "Professor Hossein's CSC1301 class receives very mixed reviews. While some students find him approachable and caring, many criticize his teaching methods, stating that his lectures are often ineffective and heavily reliant on reading from textbooks or online resources like ZyBooks and W3Schools. Attendance is mandatory and tracked through Kahoot quizzes, but many students feel that the course is better suited for those with prior knowledge of Python. The class requires significant self-study, as in-class instruction is often not sufficient to grasp the material. Tests can be challenging, and students often note that partial credit is not given."
+      },
+      {
+          "professor": "Olga Glebova",
+          "subject": "Computer Science",
+          "stars": 2.9,
+          "review": "While some students appreciate her caring nature, accessibility, and the opportunity for extra credit, others find her teaching style lacking. Lectures are often described as dull and unhelpful, with more value found in homework and self-study. Group projects are common but not always effective, especially for introverted students. Her grading can be tough, and the final exams are particularly challenging."
+      },
+      {
+          "professor": "Jiali Li",
+          "subject": "Computer Science",
+          "stars": 2.8,
+          "review": "While she is seen as caring and provides clear grading criteria, her lectures mainly consist of going through slides, which many students find unengaging."
+      },
+      {
+          "professor": "Michael Weeks",
+          "subject": "Computer Science",
+          "stars": 2.6,
+          "review": "Professor Weeks has a mixed reputation, with reviews ranging from highly negative to somewhat positive. On the positive side, some students appreciate his open-mindedness and willingness to answer questions. He's described as a professor who is knowledgeable and accessible, and he gives clear examples, especially if you have prior familiarity with the context (e.g., using Zelda for examples). However, the majority of reviews highlight significant challenges in his classes. Many students find his lectures to be disorganized, often filled with irrelevant content that doesn't relate well to the homework or exams. There is frequent criticism about the difficulty of his homework, quizzes, and exams, with some students feeling that they have to learn everything on their own due to the lack of effective instruction. The inconsistency in grading, lack of useful study materials, and the heavy reliance on his personal, outdated site for course content add to the frustrations. Overall, while he might be approachable and knowledgeable, many students struggle with the way he structures and teaches his courses. Unless you're prepared for a challenging and self-directed learning experience, you might want to consider other options."
+      },
+      {
+          "professor": "Heta Desai",
+          "subject": "Computer Science",
+          "stars": 2.3,
+          "review": "While she is described as funny and understanding by some, others criticize her harsh grading, strict attendance policy, and reliance on PowerPoint slides."
+      },
+      {
+          "professor": "Tushara Sadasivuni",
+          "subject": "Computer Science",
+          "stars": 2.3,
+          "review": "This professor receives highly polarized reviews. On one side, students who favor easy grades and less rigorous coursework praise her as the 'best professor,' noting that her exams are straightforward and often pulled directly from study guides, making her classes ideal for a GPA boost. These reviews, however, are suspected to be sarcastic or exaggerated, possibly even generated by bots to inflate her rating. On the other side, many students criticize her teaching style, describing her lectures as unorganized and unengaging, with little actual teaching. They express frustration over her reliance on reading directly from PowerPoint slides, poor communication, and a lack of genuine effort in her teaching. Accusations of using bots to boost her ratings and of grading inconsistencies are frequent, leading many to advise against taking her courses, especially if you're seeking a solid understanding of the material."
+      },
+      {
+          "professor": "Alexander Zelikovsky",
+          "subject": "Computer Science",
+          "stars": 2,
+          "review": "While he is considered funny and engaged during lectures, he is also seen as disorganized and unresponsive to student questions. Many students find his lectures difficult to follow and his grading criteria unclear, though he is a lenient grader and offers extra credit. His classes involve a lot of homework, and he relies heavily on self-study."
+      },
+      {
+          "professor": "Roya Hosseini",
+          "subject": "Computer Science",
+          "stars": 1.8,
+          "review": "This professor has a mixed reputation, particularly for her teaching style. In her Operating Systems class (CSC4320), students find the course straightforward if they attend regularly. The tests are online, and collaboration is allowed, which makes it easier to succeed. Additionally, she offers extra points based on class performance, which some students appreciate. However, in other classes, particularly introductory courses like CSC1301 and CSC1302, the reviews are more critical. Students frequently mention that her lectures are heavily reliant on reading from PowerPoint slides, making it difficult to engage with the material. Many students feel that they have to learn most of the content on their own, often turning to external resources like YouTube and Reddit. There are also complaints about her accent making it harder to understand her lectures, and her tendency to not provide clear answers to questions. Some students also express frustration with the lack of interaction and her fast-paced teaching, which leaves them feeling unprepared, especially for subsequent courses. Overall, while her OS class might be more manageable and even beneficial if you attend and collaborate, her introductory classes are often seen as disorganized and lacking effective teaching, leading many students to rely on self-study."
+      },
+      {
+          "professor": "Jaya Mandivarapu",
+          "subject": "Computer Science",
+          "stars": 1,
+          "review": "Students criticize his teaching style, citing poor communication skills, frequent class cancellations, and a lack of engagement due to his status as a PhD student."
+      },
+      {
+          "professor": "Sarwan Ali",
+          "subject": "Computer Science",
+          "stars": 1,
+          "review": "Professor Sarwan receives strong criticism for his disorganized teaching style and heavy workload. Students report that his classes involve numerous programming assignments, daily quizzes, and a demanding semester-long project. Additionally, his reliance on whiteboard notes instead of slides makes it challenging to follow along."
+      }
+  ]
+}
